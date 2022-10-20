@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PemMobile</string>
+    <string name="username">Username</string>
+    <string name="textlogin">Login</string>
+</resources>
