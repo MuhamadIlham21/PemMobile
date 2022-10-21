@@ -5,10 +5,12 @@
       <map>
         <entry key="app/src/main/res/drawable/border.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/shadow.xml" value="0.1255" />
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_barang.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.10790273556231003" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/list_barang.xml" value="0.16" />
       </map>
     </option>
   </component>

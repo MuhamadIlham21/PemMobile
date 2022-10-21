@@ -63,10 +63,10 @@
 
             <ImageView
                 android:id="@+id/img1"
-                android:src="@drawable/ic_bike"
                 android:layout_width="80dp"
-                android:layout_centerHorizontal="true"
                 android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_bike"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -177,22 +177,22 @@
 
             <ImageView
                 android:id="@+id/img4"
-                android:src="@drawable/ic_bike"
                 android:layout_width="80dp"
-                android:layout_centerHorizontal="true"
                 android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_bike"
                 tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/tvKulit"
-                android:text="Image 4"
-                android:layout_below="@+id/img4"
-                android:layout_centerHorizontal="true"
-                android:textColor="@color/white"
-                android:layout_marginTop="5dp"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/img4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="Image 4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 tools:ignore="HardcodedText" />
         </RelativeLayout>
 
