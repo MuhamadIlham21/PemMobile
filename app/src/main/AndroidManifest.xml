@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PemMobile">
         <activity
+            android:name=".Detail_barang"
+            android:exported="false" />
+        <activity
             android:name=".Barang"
             android:exported="false" />
         <activity
