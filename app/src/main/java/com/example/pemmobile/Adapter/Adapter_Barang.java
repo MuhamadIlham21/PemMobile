@@ -38,13 +38,16 @@ public class Adapter_Barang extends RecyclerView.Adapter<Adapter_Barang.BarangVi
     @Override
     public void onBindViewHolder(@NonNull Adapter_Barang.BarangViewHolder holder, int position) {
         m_barang mb = listBarang.get(position);
+
         holder.tvNama.setText(mb.getNama_barang());
+        holder.tvHarga.setText(String.valueOf(mb.getHarga()));
+        holder.tvSatuan.setText(mb.getSatuan());
         holder.imgBarang.setImageResource(mb.getImg());
 
-        holder.imgBarang.setOnClickListener(view -> {
-            view.getContext().startActivity(new Intent(mCtx, Detail_barang.class));
-        });
-//        holder.tvNama.setText(mb.nama_barang);
+//        holder.imgBarang.setOnClickListener(view -> {
+//            view.getContext().startActivity(new Intent(mCtx, Detail_barang.class));
+//        });
+
     }
 
     @Override
@@ -54,13 +57,14 @@ public class Adapter_Barang extends RecyclerView.Adapter<Adapter_Barang.BarangVi
 
     static class BarangViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tvNama;
+        TextView tvNama,tvHarga,tvSatuan;
         ImageView imgBarang;
 
         public BarangViewHolder(View itemView) {
             super(itemView);
-
-            tvNama = itemView.findViewById(R.id.tvNama);
+            tvSatuan = itemView.findViewById(R.id.tvSatuan);
+            tvNama = itemView.findViewById(R.id.tvBarang);
+            tvHarga = itemView.findViewById(R.id.tvHarga);
             imgBarang = itemView.findViewById(R.id.imgBrg);
         }
     }
